@@ -1,4 +1,4 @@
-# Домашнее задание к занятию "`Кластеризация и балансировка нагрузки`" - `Фомичева Анатолий`
+# Домашнее задание к занятию "`Кластеризация и балансировка нагрузки`" - `Фомичев Анатолий`
 
 
 ### Инструкция по выполнению домашнего задания
@@ -26,7 +26,7 @@
 
 `Приведите ответ в свободной форме........`
 
-1. `Заполните здесь этапы выполнения, если требуется ....`
+1. [haproxy.cfg](https://github.com/SLzDevOps/Netology_cluster-balance2/blob/main/haproxy1.cfg)
 2. `Заполните здесь этапы выполнения, если требуется ....`
 3. `Заполните здесь этапы выполнения, если требуется ....`
 4. `Заполните здесь этапы выполнения, если требуется ....`
@@ -41,8 +41,15 @@
 ....
 ```
 
-`При необходимости прикрепитe сюда скриншоты
-![Название скриншота 1](ссылка на скриншот 1)`
+`
+![alt text](https://github.com/SLzDevOps/Netology_cluster-balance2/blob/main/Screenshot_558.png).
+![alt text](https://github.com/SLzDevOps/Netology_cluster-balance2/blob/main/Screenshot_559.png).
+![alt text](https://github.com/SLzDevOps/Netology_cluster-balance2/blob/main/Screenshot_560.png).
+![alt text](https://github.com/SLzDevOps/Netology_cluster-balance2/blob/main/Screenshot_561.png).
+![alt text](https://github.com/SLzDevOps/Netology_cluster-balance2/blob/main/Screenshot_562.png).
+![alt text](https://github.com/SLzDevOps/Netology_cluster-balance2/blob/main/Screenshot_563.png).
+![alt text](https://github.com/SLzDevOps/Netology_cluster-balance2/blob/main/Screenshot_565.png).
+![alt text](https://github.com/SLzDevOps/Netology_cluster-balance2/blob/main/Screenshot_567.png).
 
 
 ---
@@ -51,7 +58,7 @@
 
 `Приведите ответ в свободной форме........`
 
-1. `Заполните здесь этапы выполнения, если требуется ....`
+1. [haproxy.cfg](https://github.com/SLzDevOps/Netology_cluster-balance2/blob/main/haproxy2.cfg)
 2. `Заполните здесь этапы выполнения, если требуется ....`
 3. `Заполните здесь этапы выполнения, если требуется ....`
 4. `Заполните здесь этапы выполнения, если требуется ....`
@@ -66,8 +73,10 @@
 ....
 ```
 
-`При необходимости прикрепитe сюда скриншоты
-![Название скриншота 2](ссылка на скриншот 2)`
+`
+![alt text](https://github.com/SLzDevOps/Netology_cluster-balance2/blob/main/Screenshot_568.png).
+![alt text](https://github.com/SLzDevOps/Netology_cluster-balance2/blob/main/Screenshot_569.png).
+
 
 
 ---
