@@ -74,8 +74,8 @@
 ```
 
 `
-![alt text](https://github.com/SLzDevOps/Netology_cluster-balance2/blob/main/Screenshot_568.png).
 ![alt text](https://github.com/SLzDevOps/Netology_cluster-balance2/blob/main/Screenshot_569.png).
+![alt text](https://github.com/SLzDevOps/Netology_cluster-balance2/blob/main/Screenshot_568.png).
 
 
 
