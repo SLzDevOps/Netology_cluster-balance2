@@ -47,6 +47,10 @@
 ![alt text](https://github.com/SLzDevOps/Netology_cluster-balance2/blob/main/Screenshot_576.png).
 
 
+`так я и не понял откуда он взялся, example.local, в видео везде .сом, тут поправить 2 строчки и .local сделать....
+Если не прав, объясните пожалуйста!! `
+
+
 ## Спасибо!
 
 PS
