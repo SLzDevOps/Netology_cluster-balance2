@@ -51,16 +51,30 @@
 Если не прав, объясните пожалуйста!! `
 
 
+### Доработка 2
+
+
+
+![alt text](https://github.com/SLzDevOps/Netology_cluster-balance2/blob/main/Screenshot_577.png).
+![alt text](https://github.com/SLzDevOps/Netology_cluster-balance2/blob/main/Screenshot_578.png).
+
+
+При запросе с использованием домена example.local ( curl -H 'Host:example.local' http://127.0.0.1:8088 ) - все работает, идет балансировка, так как example.local указан в ACL haproxy.cfg, и обращение к бэкенду идет через него:
+        acl ACL_example.local hdr(host) -i example.local
+        use_backend web_servers if ACL_example.local
+
+![alt text](https://github.com/SLzDevOps/Netology_cluster-balance2/blob/main/Screenshot_577.png).
+
+
+Если отправить запрос к HAProxy без указания заголовка Host: example.local, то согласно текущей конфигурации, этот запрос не попадёт в backend. Запрос будет обработан frontend-ом, а именно на фронтэнде будет отсутствовать условие для обработки запросов. Так как в haproxy.cfg нет указания другого backend-а, настроенного для обработки запросов без указанного условия - запросы, отправляемые без заголовка example.local, останутся необработанными - 503 (Service Unavailable).
+
+
+![alt text](https://github.com/SLzDevOps/Netology_cluster-balance2/blob/main/Screenshot_578.png).
+
+
+
 ## Спасибо!
 
-PS
-'Спасибо за решение.
 
-Из файла явно нужно убрать лишнее:
-
-пункты шаблона, которые вы не собираетесь заполнять;
-задания, которые вы не собираетесь выполнять.'
-
-В прошлый раз один и преподавателей требовал прям точно соблюдать "букву закона сдачи" и я так и делал..... 
 
 
