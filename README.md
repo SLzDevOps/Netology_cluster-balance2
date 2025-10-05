@@ -54,11 +54,6 @@
 ### Доработка 2
 
 
-
-![alt text](https://github.com/SLzDevOps/Netology_cluster-balance2/blob/main/Screenshot_577.png).
-![alt text](https://github.com/SLzDevOps/Netology_cluster-balance2/blob/main/Screenshot_578.png).
-
-
 При запросе с использованием домена example.local ( curl -H 'Host:example.local' http://127.0.0.1:8088 ) - все работает, идет балансировка, так как example.local указан в ACL haproxy.cfg, и обращение к бэкенду идет через него:
         acl ACL_example.local hdr(host) -i example.local
         use_backend web_servers if ACL_example.local
