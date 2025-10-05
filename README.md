@@ -61,7 +61,7 @@
 ![alt text](https://github.com/SLzDevOps/Netology_cluster-balance2/blob/main/Screenshot_577.png).
 
 
-Если отправить запрос к HAProxy без указания заголовка Host: example.local, то согласно текущей конфигурации, этот запрос не попадёт в backend. Запрос будет обработан frontend-ом, а на фронтэнде т отсутствует условие для обработки запросов. Так как в haproxy.cfg нет указания другого backend-а, настроенного для обработки запросов без указанного условия - запросы, отправляемые без заголовка example.local, останутся необработанными - 503 (Service Unavailable).
+Если отправить запрос к HAProxy без указания заголовка Host: example.local, то согласно текущей конфигурации, этот запрос не попадёт в backend. Запрос будет обработан frontend-ом, а на фронтэнде отсутствует условие для обработки запросов. Так как в haproxy.cfg нет указания другого backend-а, настроенного для обработки запросов без указанного условия - запросы, отправляемые без заголовка example.local, останутся необработанными - 503 (Service Unavailable).
 
 
 ![alt text](https://github.com/SLzDevOps/Netology_cluster-balance2/blob/main/Screenshot_578.png).
